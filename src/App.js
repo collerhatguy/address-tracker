@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Header setIPAddress={setIPAddress} />
-      <Display />
+      <Display IPAddress={IPAddress} />
       <Map />
     </div>
   );

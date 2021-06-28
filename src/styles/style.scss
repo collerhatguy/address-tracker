@@ -63,6 +63,8 @@ header {
 
 // 5. display
 .display-container {
+    width: 80%;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     height: min-content;
@@ -70,14 +72,11 @@ header {
 }
 .data {
     text-align: left;
-    h4 {
-        color: $lighter-gray;
-    }
-    span {
-        font-weight: 700;
-    }
-    &:nth-child(1) {
-        border-right: $lighter-gray 2px solid;
-    }
+    padding: 1rem;
+    h4 { color: $lighter-gray;}
+    span { font-weight: 700;}
+    &:nth-child(1) { border-right: $lighter-gray 2px solid;}
+    &:nth-child(2) { border-right: $lighter-gray 2px solid;}
+    &:nth-child(3) { border-right: $lighter-gray 2px solid;}
 }
 // 6. map

@@ -124,6 +124,8 @@ header span button {
 }
 
 .display-container {
+  width: 80%;
+  margin: 0 auto;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[4];
@@ -136,6 +138,7 @@ header span button {
 
 .data {
   text-align: left;
+  padding: 1rem;
 }
 
 .data h4 {
@@ -147,6 +150,14 @@ header span button {
 }
 
 .data:nth-child(1) {
+  border-right: #919191 2px solid;
+}
+
+.data:nth-child(2) {
+  border-right: #919191 2px solid;
+}
+
+.data:nth-child(3) {
   border-right: #919191 2px solid;
 }
 /*# sourceMappingURL=style.css.map */
