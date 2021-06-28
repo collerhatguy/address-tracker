@@ -24,11 +24,14 @@ function App() {
     getData();
   }, [IPAddress])
   return (
-    <div className="App">
+    <>
       <Header setIPAddress={setIPAddress} />
       <Display data={data} />
-      <Map />
-    </div>
+      <Map 
+      latitude={data?.location.lat} 
+      longitude={data?.location.lng} 
+      />
+    </>
   );
 }
 
