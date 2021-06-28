@@ -122,4 +122,31 @@ header span button {
   background-size: 20%;
   background-position: center;
 }
+
+.display-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  padding: 2rem;
+}
+
+.data {
+  text-align: left;
+}
+
+.data h4 {
+  color: #919191;
+}
+
+.data span {
+  font-weight: 700;
+}
+
+.data:nth-child(1) {
+  border-right: #919191 2px solid;
+}
 /*# sourceMappingURL=style.css.map */
