@@ -130,9 +130,6 @@ header span button {
   display: grid;
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
-  height: -webkit-min-content;
-  height: -moz-min-content;
-  height: min-content;
   padding: 2rem;
 }
 
