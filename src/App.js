@@ -1,6 +1,8 @@
+import React, {useState} from "react";
 import Display from "./components/Display";
 import Header from "./components/Header";
 import Map from "./components/Map";
+import "./styles/style.css";
 
 
 function App() {

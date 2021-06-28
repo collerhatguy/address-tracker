@@ -3,7 +3,7 @@ import background from "../images/pattern-bg.png"
 
 export default function Header({setIPAddress}) {
     return (
-        <header style={{backgroundImage: background}}>
+        <header>
             <h1>IP Address Tracker</h1>
             <input 
             type="text" 

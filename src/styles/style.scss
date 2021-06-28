@@ -14,6 +14,20 @@
 // 3. mixins
 // 4. header
 header {
+    // background-image: url(../images/pattern-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    h1 {
+        margin: 2rem;
+        font-weight: 700;
+        font-size: 3rem;
+    }
 }
 
 // 5. display
