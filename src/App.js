@@ -28,8 +28,8 @@ function App() {
       <Header setIPAddress={setIPAddress} />
       <Display data={data} />
       <Map 
-      latitude={data?.location.lat} 
-      longitude={data?.location.lng} 
+        latitude={data?.location?.lat} 
+        longitude={data?.location?.lng} 
       />
     </>
   );
